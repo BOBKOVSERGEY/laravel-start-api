@@ -16,3 +16,15 @@ php artisan make:controller Api/DeskController --api
 
 # Какие данные будем возвращать
 php artisan make:resource DeskResource
+
+# Создаем валидатор данных
+php artisan make:request DeskStoreRequest
+
+#postman
+Accept application/json
+
+#for update data 
+_method PUT
+
+#for delete data
+_method DELETE
